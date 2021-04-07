@@ -28,5 +28,5 @@ quote1 = multiply("It's not a bug!", 2)
 
 print(quote1)
 
-quote2=multiply("dupa",  3)
+quote2=multiply("kwiat",  3)
 print(quote2)

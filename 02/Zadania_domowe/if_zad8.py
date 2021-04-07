@@ -7,7 +7,7 @@ digit_3 = int(input('Podaj trzecia liczbę: '))
 
 if digit_1 > digit_2 > digit_3:
     print(digit_1, digit_2, digit_3)
-elif digit_3 > digit_2 > digit_1
-    print()
-elif digit_2 > digit_1 > digit_3
-    print()
+if digit_3 > digit_2 > digit_1:
+    print(digit_3, digit_2, digit_1)
+if digit_2 > digit_1 > digit_3:
+    print(digit_2, digit_1, digit_3)

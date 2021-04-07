@@ -33,35 +33,4 @@
 # txt = 'Banananana'
 # print(txt.count('na'))
 
-#Stwórz zmienną przechowującą wyraz o długości nieparzystej większej niż 7 i zwróć łańcuch złożony z trzech środkowych znaków danego ciągu.
-
-
-# txt = 'abrakadabra'
-#
-# middle = len(txt)//2
-# element = txt[middle]
-# prev = txt[middle-1]
-# next = txt[middle+1]
-#
-# print(prev+element+ next)
-
-quote = 'Honesty is the first chapter in the book of wisdom.'
-#
-# print(len(quote))
-# print(quote[-2:-7:2])
-# print(quote[-1])
-#print(quote[25:51:3])
-# Palindrom to wyrażenie brzmiące tak samo czytane od lewej do prawej i od prawej do lewej np.: Kobyła ma mały bok.
-# Pozwól użytkownikowi wprowadzić dowolne zdanie. Następnie sprawdź czy wprowadzone wyrażenie jest palindromem.
-
-txt = input('Podaj zdanie: ')
-
-txt = txt.replace(" ", "")
-txt = txt.lower()
-
-txt_2 = txt[::-1]
-
-
-
-print('Is palindrom: ',txt == txt_2)
 

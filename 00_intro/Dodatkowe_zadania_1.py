@@ -40,10 +40,21 @@
 # a następnie pomnóż dwa pierwsze. przed podzieleniem wyniku przez trzecią liczbę.
 # Wejście i wyjście powinny być zrozumiałe dla użytkownika.
 
-
+# num1 = int(input('Podaj pierwsza liczbe całkowita: '))
+# num2 = int(input('Podaj druga liczbe calkowita: '))
+# num3 = int(input('Podaj trecia liczbe calkowita: '))
+# score1 = num1 * num2
+#
+# print('Wynik pomnozonych dwoch pierwszych cyfr to: ', score1)
+# print('Natomiast po podzieleniu przez trzecią wynosi: ', score1/num3)
 
 # Zadanie 5
 # Napisz program, który pyta użytkownika o 2 liczby
 # a następnie dzieli jedna przez drugą.
 # Pokaż ile razy pierwsza liczba mieści się w drugiej
-# oraz jaka jest reszta tego dzielenia. 
+# oraz jaka jest reszta tego dzielenia.
+
+# digit1 = int(input('Podaj pierwsza liczbe: '))
+# digit2 = int(input('Podaj druga liczbe: '))
+# print('Pierwsza mieści sie w drugiej', digit1//digit2,'razy')
+# print('Winik z tego dzielenia wynosi', digit1%digit2)

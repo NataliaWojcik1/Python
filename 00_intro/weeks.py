@@ -1,7 +1,9 @@
-print(60*24*49)
+weeksinmin = 60*24*49
 
-x = 'ilosc tygpodni'
+print('W ciągu siedmiu tygodni upływa dokładnie:', weeksinmin, 'minut')
 
-x = 75//5
 
-print(x)
+
+hoursinweeks = 75//5
+
+print('Zdobycie nowej umiejętności zajmie mi:',hoursinweeks, 'tygodni')

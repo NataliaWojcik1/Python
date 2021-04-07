@@ -17,3 +17,11 @@ def open_file(filename):
 
     return text
 
+def save_file(filename, content)
+    try:
+        with open(filename, 'x', encoding='UTF-8') as file:
+            file.write(content)
+    except FileExistsError:
+        return 'not save, file already exist'
+
+    return 'file successfully saved'
