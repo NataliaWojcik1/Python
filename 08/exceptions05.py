@@ -20,8 +20,8 @@ def calculate_BMI(mass, height):
 
 
 
-try:
-    weight = float(input('Podaj wage w kg: '))
-    height = float(input('Podaj wzrost w m: '))
-except ValueError as e:
-    print('Incorrect value ->', e)
+# try:
+#     weight = float(input('Podaj wage w kg: '))
+#     height = float(input('Podaj wzrost w m: '))
+# except ValueError as e:
+#     print('Incorrect value ->', e)

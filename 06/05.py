@@ -22,8 +22,3 @@
 #
 # print(longest)
 
-def create_vari():
-    x,y = 1,2
-        z = 3
-
-print(create_vari())
