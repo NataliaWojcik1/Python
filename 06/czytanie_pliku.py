@@ -1,8 +1,3 @@
-
-
-
-
-
 # try:
 #   with open(filename, 'r') as f:
 #     content = f.read()
